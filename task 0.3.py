@@ -1,3 +1,3 @@
 def hello(n):
-    
-    return ("Hello" + " " + n + "!")
+    print ("Hello" + "" + n + "!")
+hello("Leon")    
