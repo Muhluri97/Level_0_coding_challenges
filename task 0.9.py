@@ -1,4 +1,5 @@
-def vowels(word):
-    for vowel in 'aeiou, AEIOU':
+def vowel(word):
+    vowels = 'aeiou, AEIOU'
+    for vowel in vowels:
         if vowel in word:
-            print(vowel)
+            print(vowel, end = ", ")
